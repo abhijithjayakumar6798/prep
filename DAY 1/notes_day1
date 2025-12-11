@@ -1,0 +1,4 @@
+1480. Running Sum of 1d Array – Build the prefix sum in-place by iterating from index 1 to n−1 and updating each element as nums[i] = nums[i] + nums[i−1]; time complexity O(n), extra space O(1).​
+
+242. Valid Anagram – If lengths differ, return False; otherwise, for each distinct character in s, compare its frequency in s and t and return False if any mismatch, else True; current implementation uses repeated count, so time is about O(n2), space 
+O(1), and can later be optimized with a frequency map to O(n).
