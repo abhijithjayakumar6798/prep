@@ -7,8 +7,9 @@ class Solution(object):
         minp=prices[0]
         maxp=0
         for i in prices:
-            minp=min(minp,i)
-            profit=i-minp
-            maxp=max(profit,maxp)
+            if i<minp:
+                minp=i
+            else:
+                maxp=max(maxp,i-minp)
         return maxp
         
