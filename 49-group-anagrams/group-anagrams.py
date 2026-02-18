@@ -4,4 +4,4 @@ class Solution(object):
         for i in strs:
             key=''.join(sorted(i))
             seen[key].append(i)
-        return list(sorted(seen.values()))
+        return list(seen.values())
